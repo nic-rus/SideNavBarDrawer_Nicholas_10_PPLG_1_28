@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_menu">
+
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.example.sidenavbardrawer_nicholas_10pplg1_28.fragments.FavoritFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_favorit" />
+
+    <fragment
+        android:id="@+id/nav_skills"
+        android:name="com.example.sidenavbardrawer_nicholas_10pplg1_28.fragments.MakananKhas"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_makanan_khas" />
+
+    <fragment
+        android:id="@+id/nav_band"
+        android:name="com.example.sidenavbardrawer_nicholas_10pplg1_28.fragments.MinumanKhasFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_minuman_khas" />
+</navigation>
